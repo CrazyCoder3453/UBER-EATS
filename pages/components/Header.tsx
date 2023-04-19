@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link';
 import MenuIcon from '@mui/icons-material/Menu';
 import Image from 'next/image'
-import { Button } from '@mui/material';
 import PersonIcon from '@mui/icons-material/Person';
 
 function Header() {

@@ -1,6 +1,5 @@
 import React from 'react';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
-import { Button } from '@mui/material';
 import Dropdown from './Dropdown';
 
 function Options() {
