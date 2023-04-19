@@ -21,8 +21,8 @@ function Header() {
             </Link>
         </div>
         <div className='ml-10 mr-10 mt-10'>
-            <Button className='text-black bg-white shadow-md p-2 rounded mr-8 hover:bg-slate-400'><PersonIcon />Log in</Button>
-            <Button className='text-white bg-black shadow-md p-2 rounded hover:bg-slate-500'>Sign up</Button>
+            <button className='text-black bg-white shadow-md p-2 rounded mr-8 hover:bg-slate-400'><PersonIcon />Log in</button>
+            <button className='text-white bg-black shadow-md p-2 rounded hover:bg-slate-500'>Sign up</button>
         </div>
     </div>
   )

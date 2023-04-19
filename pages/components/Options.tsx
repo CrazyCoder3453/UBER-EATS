@@ -11,7 +11,7 @@ function Options() {
             <FmdGoodIcon />
         </div>
         <Dropdown />
-        <Button className='bg-black text-white hover:bg-slate-500'>Find Food</Button>
+        <button className='bg-black p-2 rounded text-white hover:bg-slate-500'>Find Food</button>
     </div>
   );
 }
