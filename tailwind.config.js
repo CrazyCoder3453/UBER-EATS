@@ -7,7 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      height: {
+        'md': '235px'
+      },
+      width: {
+        'lg': '176px'
+      }
     },
   },
   plugins: [],
