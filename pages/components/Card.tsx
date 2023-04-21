@@ -1,19 +1,19 @@
-import React from 'react';
+import React from 'react'
 
-interface CardProps {
+type CardProps = {
   src: string;
   title: string;
   description: string;
-}
+};
 
-function Card(props: CardProps) {
+const Card: React.FC<CardProps> = ({ src, title, description }) => {
   return (
-    <div className='border-none bg-blue-300 w-md h-lg'>
-      <img src={props.src} alt={props.title} />
-      <h2>{props.title}</h2>
-      <p>{props.description}</p>
+    <div className="w-80 h-96 bg-gray-100 rounded-md p-4">
+      <img className="w-full h-56 object-cover rounded-md" src={src} alt={title} />
+      <h2 className="mt-2 text-lg font-medium">{title}</h2>
+      <p className="mt-2 text-sm text-gray-500">{description}</p>
     </div>
   );
-}
+};
 
 export default Card;
